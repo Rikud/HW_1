@@ -8,7 +8,7 @@
 #include <map>
 #include <fstream>
 
-#define DEFULT_PORT "8080"
+#define DEFULT_PORT "80"
 #define DEFULT_DOCUMENT_ROOT "/var/www/html"
 #define DEFULT_CPU_COUNT "256"
 #define CONFIGURATION_PATH "/etc/httpd.conf"
