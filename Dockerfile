@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN apt-get -y install g++
 RUN apt-get -y install libboost-all-dev
 
-ADD ./HW_1/ ./
+ADD ./HW/ ./
 
 RUN g++ src/*.cpp -pthread -lboost_thread -lboost_filesystem -std=c++14 -lboost_system -o HW_1
 
