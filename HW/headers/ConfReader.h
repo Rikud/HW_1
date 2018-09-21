@@ -10,7 +10,7 @@
 
 #define DEFULT_PORT "80"
 #define DEFULT_DOCUMENT_ROOT "/var/www/html"
-#define DEFULT_CPU_COUNT "256"
+#define DEFULT_CPU_COUNT "4"
 #define CONFIGURATION_PATH "/etc/httpd.conf"
 
 #define READ_BUFF_LENGTH 256
